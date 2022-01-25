@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
             //Ubicacion por Ciudad
             //const url = `https://api.openweathermap.org/data/2.5/weather?q=Barcelona&lang=es&units=metric&appid=c813f2748d4825e65ccf6f3bfe4e2464`
             //console.log(url);
-
+        
             fetch(url)
                 .then(response => {
                     return response.json()
